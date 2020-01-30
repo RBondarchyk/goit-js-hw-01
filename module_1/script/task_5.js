@@ -1,9 +1,11 @@
 const countryChoice = prompt('Укажите в какую страну оформить доставку:');
+let normalizeCountryChoice;
 let price;
 if (countryChoice === null) {
   alert('Отменено пользователем!');
+} else {
+  normalizeCountryChoice = countryChoice.toLowerCase();
 }
-const normalizeCountryChoice = countryChoice.toLowerCase();
 switch (normalizeCountryChoice) {
   case 'китай': {
     let price = 100;
