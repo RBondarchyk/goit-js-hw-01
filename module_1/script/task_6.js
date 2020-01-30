@@ -18,4 +18,4 @@ while(true) {
 
     total += input;
 }
-console.log('Общая сумма: ' + total)
+console.log('Общая сумма: ' + total);

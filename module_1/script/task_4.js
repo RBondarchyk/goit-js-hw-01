@@ -16,4 +16,4 @@ if(totalPrice > credits) {
 } else if(totalPrice <= credits) {
     alert('Заказано ' + addToCart + ' шт, на сумму: ' + totalPrice + ' кредитов . ' + 
 'Остаток на счету: ' + comparison + ' кредитов.');
-}
+};
